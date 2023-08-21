@@ -23,5 +23,8 @@ body {
   font-size: 1.2rem;
 }
 
-
+.navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
