@@ -121,3 +121,38 @@ body {
 .blog-posts p {
   margin: 8px 0;
 }
+
+.projects-section {
+  background-color: #FCEAFF;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.projects-content {
+  padding: 0 15%;
+}
+
+.projects-card {
+  width: 50%;
+  float: left;
+  margin-top: 24px;
+}
+
+.projects-card p {
+  margin: 8px 0;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+.project-desc {
+  font-size: 1rem;
+}
+
+.projects-card .project-stack {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
