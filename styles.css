@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  background-color: #8244E7;
+  color: white;
+  height: 90vh;
+  
+}
+
+.hero h1 {
+  margin: 0;
+}
