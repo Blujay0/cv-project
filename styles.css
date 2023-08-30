@@ -176,6 +176,60 @@ footer img {
 /* responsive design */
 
 
+@media only screen and (max-width: 1000px) {
+  .hero-content,
+  .blog-content,
+  .projects-content {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .tagline {
+    font-size: 3.5rem;
+  }
+
+  .hero-content .passion {
+    font-size: 2.5rem;
+  }
+
+  /* change width of 2 col to 1 col by changing width from 50% to 100% */
+  .two-column-section > p {
+    width: 100%;
+  }
+
+  .two-column-section .skills {
+    width: 100%;
+  }
+
+  .two-column-section .blog-posts {
+    width: 100%;
+  }
+
+  .two-column-section .projects-card {
+    width: 100%;
+  }
+
+  .section-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-content .passion {
+    font-size: 2rem;
+  }
+  .tagline {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .links {
+    display: none;
+  }
+}
+
 
 
 
